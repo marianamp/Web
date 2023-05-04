@@ -1,0 +1,57 @@
+.screen{
+    width: 100%;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+#leftside, #rightside{
+    text-align: center;
+    float: left;
+}
+#leftside{
+    width: 30%;
+    color:white;
+    display: flex; 
+    flex-direction: column;
+}
+#rightside{
+    width: 70%;
+    background:rgb(255, 255, 255);
+}
+h1{
+    font-size:50px;
+    color:#C72175;
+}
+h2{
+    font-size:30px;
+}
+i{
+    position: absolute;
+}
+#nome, #email, #password{
+    height: 36px;
+    width: 300px;
+    border-color: #4F1180;
+}
+#button{
+    background-color:#C72175;
+    color: white;
+    height: 50px;
+    width: 150px;
+}
+button{
+    background-color:#C72175;
+    color: white;
+    height: 50px;
+    width: 150px;
+}
+::placeholder{
+    color: black; 
+}
+#grid-item{
+    overflow: auto;
+}
+#grid-container{
+    align-content: stretch;
+}
