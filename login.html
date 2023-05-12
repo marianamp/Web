@@ -1,44 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Gerenciador de Notas</title>
+        <title>Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
         <div id="screen">
             <div id="leftside" class="flex-container">
                 <div class="flex-item">
-                    <h2>WELCOME BACK!</h2>
+                    <h2>WELCOME!</h2>
                     <br>
                 </div>
                 <div class="flex-item">
-                    <b><label>To keep connected with us please<br>login with your personal info </label></b>
+                    <b><label>Enter your personal details<br>and start journey with us </label></b>
                     <br>
                 </div>
                 <div class="flex-item">
                     <br>
                     <br>
                     <br>
-                    <button onclick="redirect_login()"><b>Sign In</b></button>
+                    <button onclick="redirect_register()"><b>Sign Up</b></button>
                 </div>
             </div>
             <div id="rightside" class="flex-container">
                 <form>
                     <div class="flex-item">
-                        <h1>Create account</h1>
+                        <h1>Sign In</h1>
                         <br>
                     </div>
                     <div class="flex-item">
-                        <b><label>or use your email for registration: </label></b>
+                        <b><label>or use your email account: </label></b>
                         <br>
-                    </div>
-                    <br>
-                    <div class="flex-item">
-                        <i class="material-icons">person</i>
-                        <input type="text" id="nome" placeholder="Name">
                     </div>
                     <br>
                     <div class="flex-item">
@@ -52,9 +47,7 @@
                     </div>
                     <div class="flex-item">
                         <br>
-                        <a href="dashboard.html">
-                            <button type="submit" onclick="redirect_home()"><b>Sign Up</b></button>
-                        </a>
+                        <button type="submit" onclick="redirect_home()"><b>Sign In</b></button>
                     </div>
                 </form>
             </div>
